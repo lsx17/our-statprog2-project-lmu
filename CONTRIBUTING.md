@@ -4,10 +4,9 @@
 
 The group contribution record will be completed in detail with the final submission.
 
-**Shangxun Liu** — GitHub: `lsx17`; initial repository setup and project proposal draft.
-- Dataset selection and source documentation
-- Initial data cleaning and EDA setup
-- Proposal structure and reproducibility workflow
+**Shangxun Liu** — GitHub: `lsx17`
+- Group member
+- Detailed contribution notes to be completed for the final submission
 
 **Haoyu Meng** — GitHub: `MHY112928`
 - Group member
