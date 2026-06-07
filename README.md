@@ -12,18 +12,16 @@ This repository contains a Quarto project proposal for the StatProg2 group proje
 
 ## Dataset
 
-The project uses the public Munich Open Data dataset "Daten der Raddauerzaehlstellen Muenchen - Jahreszahlen".
-
-- Dataset page: https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/
-- Datengartln page: https://datengartln.de/datasets/detail/022a11ff-4dcb-4f03-b7dd-a6c94a094587/
+The project uses the public Munich Open Data dataset "Daten der Raddauerzaehlstellen Muenchen".
+- Dataset page: https://datengartln.de/datasets/detail/022a11ff-4dcb-4f03-b7dd-a6c94a094587/
 - Licence: Datenlizenz Deutschland Namensnennung 2.0
 
-For the proposal, we use the daily bicycle-count files with weather variables for 2021-2024.
+For this proposal, we  downloaded the daily datasets for 2021 to 2024.
 
 ## Reproduce
 
-1. Run `code/01_download.R` to download the raw CSV files into `data/raw/`.
-2. Run `code/02_clean.R` to create `data/processed/bicycle_counts_clean.csv`.
-3. Render the Quarto website with `quarto render`.
+1. The raw datasets for 2021-2024 (`bike_2021.csv` to `bike_2024.csv`) are stored in the `data/` folder.
+2. Open the `proposal.qmd` file in RStudio.
+3. Click the "Render" button in RStudio to generate the HTML report. All data combining and cleaning steps are done directly inside the QMD file using basic `dplyr` functions.
 
 The rendered proposal is `docs/proposal.html` when built locally or through GitHub Pages.
