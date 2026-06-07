@@ -98,5 +98,3 @@ Here is our plan for the final project:
 2. **Analysis for Q1 (Time & Seasons):** We will use summary statistics grouped by year and month to see if there is an overall increasing trend in cycling from 2021 to 2024.
 3. **Analysis for Q2 (Weather):** We will run a multiple linear regression model (`lm()` function). We will use `total_bikes` as the dependent variable, and test how weather conditions like `max_temp` and `precipitation` act as independent predictors.
 4. **Communication:** We will display our regression results using clear tables and build final polished plots using `ggplot2`.
-
-
