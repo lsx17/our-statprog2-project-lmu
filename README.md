@@ -1,49 +1,29 @@
-# Project Title
+# Munich Bicycle Counter Patterns
 
-> Replace this with a short description of your project and dataset.
-
-## Research Questions
-
-1. <!-- Your first research question -->
-2. <!-- Your second research question -->
-
-## Dataset
-
-- **Source:** <!-- URL or citation -->
-- **Licence:** <!-- e.g. CC BY 4.0 -->
-- **Description:** <!-- What does the data contain? What are the key variables? -->
+This repository contains a Quarto project proposal for the StatProg2 group project.
 
 ## Group Members
 
 | Name | GitHub username |
-|------|----------------|
-|      |                |
-|      |                |
-|      |                |
+|------|-----------------|
+| Shangxun Liu | lsx17 |
+| Haoyu Meng | MHY112928 |
+| Zihan Wang | Wzh927 |
 
-## Repository Structure
+## Dataset
 
-```
-data/raw/        read-only raw data and licence documentation
-data/processed/  cleaned data produced by code/02_clean.R
-code/            numbered R scripts (01 download → 02 clean → 03 EDA → 04 analysis)
-docs/            rendered Quarto website output (auto-generated, do not edit)
-proposal.qmd     W07 project proposal
-report.qmd       final analysis report
-```
+The project uses the public Munich Open Data dataset "Daten der Raddauerzaehlstellen Muenchen - Jahreszahlen".
 
-## How to reproduce
+- Dataset page: https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/
+- Datengartln page: https://datengartln.de/datasets/detail/022a11ff-4dcb-4f03-b7dd-a6c94a094587/
+- Licence: Datenlizenz Deutschland Namensnennung 2.0
 
-```r
-# 1. Install dependencies
-renv::restore()   # if using renv, otherwise install packages manually
+For the proposal, we use the daily bicycle-count files with weather variables for 2021-2024.
 
-# 2. Run the pipeline in order
-source("code/01_download.R")
-source("code/02_clean.R")
-source("code/03_eda.R")
-source("code/04_analysis.R")
+## Reproduce
 
-# 3. Render the website
-quarto::quarto_render()
-```
+1. Run `code/01_download.R` to download the raw CSV files into `data/raw/`.
+2. Run `code/02_clean.R` to create `data/processed/bicycle_counts_clean.csv`.
+3. Render the Quarto website with `quarto render`.
+
+The rendered proposal is `docs/proposal.html` when built locally or through GitHub Pages.

@@ -2,22 +2,20 @@
 
 ## Group Members
 
-<!-- Fill in after the project is complete. -->
+The group contribution record will be completed in detail with the final submission.
 
-**[Name]** — [files/sections responsible for]
-- [Key task 1]
-- [Key task 2]
-- [Collaborative tasks]
+**Shangxun Liu** — GitHub: `lsx17`; initial repository setup and project proposal draft.
+- Dataset selection and source documentation
+- Initial data cleaning and EDA setup
+- Proposal structure and reproducibility workflow
 
-**[Name]** — [files/sections responsible for]
-- [Key task 1]
-- [Key task 2]
-- [Collaborative tasks]
+**Haoyu Meng** — GitHub: `MHY112928`
+- Group member
+- Detailed contribution notes to be completed for the final submission
 
-**[Name]** — [files/sections responsible for]
-- [Key task 1]
-- [Key task 2]
-- [Collaborative tasks]
+**Zihan Wang** — GitHub: `Wzh927`
+- Group member
+- Detailed contribution notes to be completed for the final submission
 
 ## AI Tool Disclosure
 

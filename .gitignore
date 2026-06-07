@@ -1,12 +1,11 @@
-# R
+.DS_Store
 .Rhistory
 .RData
 .Rproj.user/
-
-# Quarto build artefacts
-/.quarto/
-_site/
-
-# OS
-.DS_Store
-Thumbs.db
+.quarto/
+docs/site_libs/
+data/raw/*.csv
+data/processed/*.csv
+figures/*.png
+*.html
+!docs/*.html

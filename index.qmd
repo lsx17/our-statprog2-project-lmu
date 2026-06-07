@@ -1,24 +1,9 @@
 ---
-title: "Project Title"
-author:
-  - "Group Member 1"
-  - "Group Member 2"
-  - "Group Member 3"
-date: today
+title: "Munich Bicycle Counter Patterns"
 ---
 
-## Introduction
+This repository contains the group project proposal for Advanced Statistical Programming using R.
 
-<!-- Motivate the dataset and research questions. -->
+The current proposal focuses on daily bicycle counts and weather conditions in Munich, using the open dataset "Daten der Raddauerzaehlstellen Muenchen - Jahreszahlen" from the City of Munich Open Data Portal.
 
-## Data
-
-<!-- Brief description of the dataset. -->
-
-## Results
-
-<!-- Summary of key findings. -->
-
-## Discussion
-
-<!-- Interpret results, limitations, and next steps. -->
+See the [project proposal](proposal.qmd).
